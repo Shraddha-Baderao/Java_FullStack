@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
-    int L = 10;
-    int W = 20;
+void main() {
+    int M = 110;
+    int hrs = M/60;
+    int R_min = M%60;
     
-    int P= 2*(L+W);
-    printf("Perimeter of Rectangle is: %d", P);
+    printf("converted minutes into hours and remaining minutes: %d:%d",hrs,R_min);
 
-    return 0;
 }

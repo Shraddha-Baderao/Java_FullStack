@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int main() {
+void main() {
+    int a = 10;
+    int b = 20;
+    int sum = a+b;
     
-    int r = 10;
-    int pie = 22/7;
-    
-    int A = pie*(r*r);
-    printf("The area of circle is: %d", A);
+    printf("sum of two integers is: %d", sum);
 
-    return 0;
 }

@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     
-    int c = 10;
+    int r = 10;
+    int pie = 22/7;
     
-    int F = (c*9/5)+32;
-    printf("The converted value in fahrenheit is: %d", F);
+    int A = pie*(r*r);
+    printf("The area of circle is: %d", A);
 
-    return 0;
 }

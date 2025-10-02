@@ -1,17 +1,11 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     
-    int a = 10;
-    int b = 20;
-    int temp;
+    int c = 10;
     
-    temp = a;
-    a = b;
-    b = temp;
-    
-    printf("The values of a and b after swaping are: \n""a: %d \nb: %d", a, b);
-    
+    int F = (c*9/5)+32;
+    printf("The converted value in fahrenheit is: %d", F);
 
-    return 0;
 }
+

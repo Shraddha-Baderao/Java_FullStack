@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     
     int a = 10;
     
@@ -10,5 +10,4 @@ int main() {
     printf("The square of given number is: %d", square);
     printf("\nThe cube of given number is: %d", cube);
 
-    return 0;
 }

@@ -1,18 +1,15 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     
     int a = 10;
     int b = 20;
-    int c = 30;
-    int d = 40;
-    int e = 50;
+    int temp;
     
-    int sum = a+b+c+d+e;
-    float avg = sum/5;
+    temp = a;
+    a = b;
+    b = temp;
     
-    printf("The average of 5 numbers is: %f", avg);
+    printf("The values of a and b after swaping are: \n""a: %d \nb: %d", a, b);
     
-
-    return 0;
 }

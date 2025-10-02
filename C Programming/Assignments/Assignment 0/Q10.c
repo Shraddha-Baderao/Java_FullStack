@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int a = 90;
     int b = 80;
@@ -17,5 +17,4 @@ int main()
     per = (ttl/500.0)*100;
     printf("The percentage: %f", per);
 
-    return 0;
 }
