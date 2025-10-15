@@ -8,7 +8,7 @@ void main()
     int Result;
     printf("Enter 1st number: ");
     scanf("%d",&n1);
-    printf("Enter 2nd number: ");
+    printf("Enter 52nd number: ");
     scanf(" %d",&n2);
     printf("Enter the operation +,-,*,/,%: ");
     scanf(" %c",&op);
