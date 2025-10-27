@@ -95,7 +95,7 @@ void casecheck() {
         printf("%c is not an alphabet\n", ch);
 }
 
-// 7. Total Salary
+
 void totalsalary() {
     float basic, da, ta, hra, total;
     printf("Enter basic salary: ");

@@ -1,6 +1,7 @@
 #include<stdio.h>
-void main()
 {
+
+
   int n,pow,res=1;
 
   printf("Enter number: ");
