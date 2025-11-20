@@ -30,7 +30,7 @@ char* removechar(char* str, char ch)
        {
 
          str[j]=str[i];
-j++;
+        j++;
 
        }
 
