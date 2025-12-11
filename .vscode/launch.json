@@ -1,7 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
+    {
+      "type": "java",
+      "name": "TestAdmin",
+      "request": "launch",
+      "mainClass": "TestAdmin",
+      "projectName": "Java_FullStack_112aa014"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
